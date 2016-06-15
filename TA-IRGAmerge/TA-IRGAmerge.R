@@ -49,7 +49,7 @@ co2FunctTime2 <- approx(x=irga_etime, y=irgatemp$co2, xout=dsctemp$time)   #get 
 co2.new <-co2FunctTime2$y
 waterFunctTime2 <- approx(x=irga_etime, y=irgatemp$h2o, xout=dsctemp$time) #get water function of the same time rate as dsc data
 h2o.new <- waterFunctTime2$y
-plot(temp,co2.new,xlab="Temperature (°C)",ylab="CO2 (ppm)",main= output)   #plot CO2 as a function of elapsed time
+plot(temp,co2.new,xlab="Temperature (Â°C)",ylab="CO2 (ppm)",main= output)   #plot CO2 as a function of elapsed time
 
 proteus.new<-data.frame(temp,time,dsc,mass,co2.new,h2o.new,segment)        #place all data in new dataframe
 names(proteus.new)<-c("temp","time","dsc","mass","IRGAco2","IRGAh2o","segment")
