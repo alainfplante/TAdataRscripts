@@ -52,7 +52,7 @@ temp.sub=subset(temp,temp >= range[1]&temp <  max(range))  # subset temperature 
 #Define variables in ideal gas equation for CO2-C conversions
 P=1.004  # atmospheric pressure, in bar
 R=0.08206  # ideal gas constant, in L atm/mol K
-T=324.25  # temperature, in Kelvin (51.1ºC)
+T=324.25  # temperature, in Kelvin (51.1ÂºC)
 
 #DSC summary stats
 if (exists("BLCdsc")) {
