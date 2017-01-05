@@ -1,2 +1,2 @@
 # 449 Data Analysis
-R scripts for data processing of thermal analysis files generate by STA449 Jupiter
+R scripts for data processing of thermal analysis files generate by STA449 F5 Jupiter
