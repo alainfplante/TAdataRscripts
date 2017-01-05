@@ -46,7 +46,7 @@ tgt50=vector(mode="numeric",length=max(sampleno))
 # define variables in idea gas equation for c-co2 conversions
 P=1.004  # atmospheric pressure, in bar
 R=0.08206  # ideal gas constant, in L atm/mol K
-T=324.25  # temperature, in Kelvin (51.1ºC)
+T=324.25  # temperature, in Kelvin (51.1ÂºC)
 
 # start for-loop that iteratively goes through every sample in the dataset
 # calculating summary values and placing those values in a summary matrix
